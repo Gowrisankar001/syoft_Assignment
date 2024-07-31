@@ -1,0 +1,14 @@
+.dashboard {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 2em;
+  }
+  
+  .dashboard p {
+    margin: 10px 0;
+  }
+  
