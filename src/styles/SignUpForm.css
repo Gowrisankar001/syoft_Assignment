@@ -1,10 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 125vh;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722444883/front-image_lmcdir.webp");
+  background-size: cover;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 .signup-form {
     max-width: 400px;
     margin: 0 auto;
+    background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722443051/login-img_ydbtir.png");
+    background-size: cover;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 100px;
+    
   }
   
   .signup-form h2 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
   }
   
   .signup-form form {
@@ -12,7 +48,40 @@
     flex-direction: column;
   }
   
-  .signup-form button {
+  .signup-button {
     margin-top: 10px;
+    width: 70px;
+    background-color: rgb(248, 163, 6);
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 150px;
+    font-weight: bold;
   }
   
+  .login-button {
+    margin-top: 10px;
+    width: 70px;
+    background-color: rgb(248, 163, 6);
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    font-weight: bold;
+  }
+
+  .para {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+  }
+
+  .paragraph {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    font-size: 13px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .error-message {
+    color: red;
+  }
