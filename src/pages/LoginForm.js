@@ -32,7 +32,16 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="login-form">
+    <div className='container'>
+      <div className='image-container col-md-6'>
+          <h1>Welcome to <br /> our community</h1>
+          <p className='paragraph'>
+            Fuse helps developers to build and well coded
+            dashboards full of beautiful and rich modules. Join
+            us and start duilding your application today.
+          </p>
+      </div>
+      <div className="login-form col-md-6">
       <h2>Log In</h2>
       <form onSubmit={handleSubmit}>
         <FormInput
@@ -49,12 +58,14 @@ const LoginForm = () => {
           placeholder="Password"
           onChange={handleChange}
         />
-        <button type="submit">Log In</button>
+        <button type="submit" className='login-btn'>Log In</button>
       </form>
       {error && <p className="error-message">{error}</p>}
-      <p>Don't have an account?</p>
-      <button onClick={() => navigate('/signup')}>Sign Up</button>
+      <p className='para'>Don't have an account?</p>
+      <button className='signup-btn' onClick={() => navigate('/signup')}>Sign Up</button>
     </div>
+    </div>
+    
   );
 };
 
