@@ -17,13 +17,17 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="dashboard">
-      <h1>Welcome, {user.user_firstname}!</h1>
-      <p>Email: {user.user_email}</p>
-      <p>Username: {user.user_firstname}</p>
-      <button onClick={handleLogout}>Log Out</button>
+    <div className='bg-container'>
+      <div className="dashboard">
+        <h1>Welcome, {user.user_firstname}!</h1>
+        <p>Email: {user.user_email}</p>
+        <p>Username: {user.user_firstname}</p>
+        <button className='logout-btn' onClick={handleLogout}>Log Out</button>
+      </div>
     </div>
+    
   );
 };
 
 export default Dashboard;
+
