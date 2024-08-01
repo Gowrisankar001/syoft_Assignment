@@ -1,14 +1,38 @@
+.bg-container {
+    background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722441870/background-img_sacrff.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100vh;
+    border-radius: 10px;
+}
+
+
+
 .dashboard {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    color: white;
   }
   
   .dashboard h1 {
-    font-size: 2em;
+    font-size: 3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .dashboard p {
     margin: 10px 0;
+    font-family: "fantasy";
+    font-size: 20px;
   }
   
+  .logout-btn {
+    width: 70px;
+    background-color: rgb(248, 163, 6);
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
