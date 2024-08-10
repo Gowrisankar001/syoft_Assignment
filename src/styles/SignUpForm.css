@@ -23,6 +23,7 @@
 .signup-form {
   width: 100%;
   max-width: 400px;
+  background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722444883/front-image_lmcdir.webp");
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.8); /* Use solid background instead of image */
   padding: 20px;
@@ -86,7 +87,7 @@
   }
 
   .signup-button, .login-button {
-    width: 70%;
+    width: 50%;
     margin: 10px auto;
   }
 }
