@@ -13,7 +13,7 @@
   justify-content: center;
   width: 50%;
   height: 100vh;
-  background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722444883/front-image_lmcdir.webp");
+  background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1723274045/a97b910650a39174316520d6ad040baf_smjths.jpg");
   background-size: cover;
   margin-right: 20px;
   text-align: center;
@@ -22,7 +22,9 @@
 
 .login-form {
   width: 100%;
+  height:100%;
   max-width: 400px;
+  background-image: url("https://res.cloudinary.com/du9ltkksx/image/upload/v1722444883/front-image_lmcdir.webp");
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.8); /* Use solid background instead of image */
   padding: 20px;
@@ -86,7 +88,7 @@
   }
 
   .login-btn, .signup-btn {
-    width: 70%;
+    width: 50%;
     margin: 10px auto;
   }
 }
